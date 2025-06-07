@@ -13,7 +13,7 @@ def multiply_matrices(A, B):
 
     # Validate dimensions: columns of A == rows of B
     if len(A[0]) != len(B):
-        raise MatrixDimensionError("Incompatible matrix dimensions.")
+        raise MatrixDimensionError("\033[93m⚠️ Warning: Mathias is confused. Reine says no. Orpheus is disappointed. Can't multiply these matrices. ⚠️\033[0m")
 
     # Matrix multiplication
     result = []
